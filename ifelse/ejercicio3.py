@@ -16,6 +16,6 @@ caraSuperior = math.sqrt(x**2+z**2)
 caraLado = math.sqrt(y**2+z**2)
 
 if caraFrontal > caraSuperior and caraFrontal>caraLado: print("cara frontal")
-else: 
-    if caraSuperior>caraLado: print("cara superior")
-    else: print("cara de lado")
+elif  caraSuperior>caraLado: 
+     print("cara superior")
+else: print("cara de lado")
